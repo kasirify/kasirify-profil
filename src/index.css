@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Kasirify Neo-Brutalist & Grunge Styling
+   ========================================================================== */
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.grunge-border {
+    border: 2px solid #1c1b1b;
+    box-shadow: 6px 6px 0px #1c1b1b;
+    transform: rotate(-1deg);
+}
+
+.grunge-border-sm {
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 4px 4px 0px 0px currentColor;
+}
+
+.grunge-card {
+    border: 3px solid #1c1b1b;
+    box-shadow: 8px 8px 0px #1c1b1b;
+    transition: all 0.2s ease;
+}
+
+.grunge-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0px #1c1b1b;
+}
+
+.halftone-bg {
+    background-image: radial-gradient(#1c1b1b 1px, transparent 0);
+    background-size: 8px 8px;
+    background-color: #ffd600;
+}
+
+.layered-graphic {
+    position: relative;
+    background: #f0eded;
+    border: 2px solid #1c1b1b;
+    overflow: hidden;
+}
+
+.layered-graphic::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#1c1b1b 1.5px, transparent 0);
+    background-size: 6px 6px;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.expressive-btn {
+    border: 3px solid #1c1b1b;
+    box-shadow: 4px 4px 0px #1c1b1b;
+    transition: all 0.1s;
+}
+
+.expressive-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px #1c1b1b;
+}
+
+.non-rigid-card {
+    transform: rotate(var(--rotation, 0deg));
+    transition: transform 0.2s ease-out;
+}
+
+.non-rigid-card:hover {
+    --rotation: 0.5deg;
+    transform: rotate(var(--rotation)) translateY(-4px);
+}
+
+.hard-shadow {
+    box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.hard-shadow-sm {
+    box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.button-press:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+
+.tilted-element {
+    transform: rotate(-0.5deg);
+}
+
+.tilt-left { transform: rotate(-1deg); }
+.tilt-right { transform: rotate(1deg); }
+
+.sticker-btn {
+    transition: all 0.1s ease-in-out;
+}
+
+.skew-1 { transform: rotate(1deg); }
+.skew-neg-1 { transform: rotate(-1deg); }
+.skew-2 { transform: rotate(2deg); }

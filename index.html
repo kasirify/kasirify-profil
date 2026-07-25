@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="light" lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasirify - Solusi Kasir Pintar untuk Setiap Bisnis</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,700;1,400;1,700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+    <!-- Tailwind CSS CDN & Config -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+              "outline-variant": "#d0c6ab",
+              "on-error": "#ffffff",
+              "outline": "#7f775f",
+              "on-error-container": "#93000a",
+              "background": "#fcf9f8",
+              "surface-container-highest": "#e5e2e1",
+              "surface-container": "#f0eded",
+              "surface-container-high": "#eae7e7",
+              "tertiary-container": "#ffcec0",
+              "on-primary-container": "#705d00",
+              "secondary-fixed-dim": "#bfc2ff",
+              "primary-fixed": "#ffe170",
+              "inverse-surface": "#313030",
+              "inverse-on-surface": "#f3f0ef",
+              "on-secondary-fixed-variant": "#0e05ec",
+              "on-surface-variant": "#4d4632",
+              "on-background": "#1c1b1b",
+              "secondary": "#0b00e7",
+              "on-tertiary-container": "#ae3200",
+              "inverse-primary": "#e9c400",
+              "on-tertiary": "#ffffff",
+              "surface": "#fcf9f8",
+              "on-secondary-container": "#d0d1ff",
+              "primary-fixed-dim": "#e9c400",
+              "surface-variant": "#e5e2e1",
+              "secondary-container": "#3338fe",
+              "on-primary": "#1c1b1b",
+              "surface-tint": "#705d00",
+              "tertiary-fixed": "#ffdbd0",
+              "tertiary-fixed-dim": "#ffb59e",
+              "on-secondary-fixed": "#02006d",
+              "primary-container": "#ffd600",
+              "surface-dim": "#dcd9d9",
+              "on-primary-fixed-variant": "#544600",
+              "primary": "#ffd600",
+              "tertiary": "#ae3200",
+              "on-tertiary-fixed": "#3a0b00",
+              "surface-container-low": "#f6f3f2",
+              "on-primary-fixed": "#221b00",
+              "surface-container-lowest": "#ffffff",
+              "error": "#ba1a1a",
+              "secondary-fixed": "#e0e0ff",
+              "on-tertiary-fixed-variant": "#852400",
+              "on-secondary": "#ffffff",
+              "surface-bright": "#fcf9f8",
+              "on-surface": "#1c1b1b",
+              "error-container": "#ffdad6"
+            },
+            "borderRadius": {
+              "DEFAULT": "0.25rem",
+              "lg": "0.5rem",
+              "xl": "1.5rem",
+              "full": "9999px"
+            },
+            "spacing": {
+              "margin-desktop": "64px",
+              "unit": "4px",
+              "stack-overlap": "-12px",
+              "gutter": "24px",
+              "margin-mobile": "16px"
+            },
+            "fontFamily": {
+              "body-md": ["Hanken Grotesk", "sans-serif"],
+              "headline-lg": ["Bricolage Grotesque", "sans-serif"],
+              "headline-lg-mobile": ["Bricolage Grotesque", "sans-serif"],
+              "label-bold": ["Space Grotesk", "sans-serif"],
+              "headline-md": ["Bricolage Grotesque", "sans-serif"],
+              "display-lg": ["Bricolage Grotesque", "sans-serif"],
+              "body-lg": ["Hanken Grotesk", "sans-serif"]
+            },
+            "fontSize": {
+              "body-md": ["16px", {"lineHeight": "160%", "fontWeight": "400"}],
+              "headline-lg": ["48px", {"lineHeight": "110%", "fontWeight": "800"}],
+              "headline-lg-mobile": ["36px", {"lineHeight": "110%", "fontWeight": "800"}],
+              "label-bold": ["14px", {"lineHeight": "100%", "fontWeight": "700"}],
+              "headline-md": ["32px", {"lineHeight": "120%", "fontWeight": "700"}],
+              "display-lg": ["84px", {"lineHeight": "90%", "letterSpacing": "-0.04em", "fontWeight": "800"}],
+              "body-lg": ["18px", {"lineHeight": "160%", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+  </head>
+  <body class="bg-background text-on-surface font-body-md">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
