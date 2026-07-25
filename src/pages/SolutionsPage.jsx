@@ -18,9 +18,11 @@ export default function SolutionsPage({ onNavigate, onGoToApp }) {
               <h1 className="font-display-lg text-3xl sm:text-5xl md:text-display-lg text-on-surface leading-[0.9] md:leading-[0.85] uppercase font-black">
                 TAILORED <span className="text-secondary italic">INFRASTRUCTURE</span> FOR BUSINESS.
               </h1>
-              <p className="font-body-lg text-base md:text-body-lg text-on-surface max-w-xl font-bold italic">
-                Kasirify provides high-performance POS infrastructure customized for the unique operational demands of your sector. No fluff. Just raw power.
-              </p>
+              <div className="bg-white/95 backdrop-blur-sm p-4 sm:p-5 border-4 border-on-surface grunge-border-sm shadow-[4px_4px_0px_0px_rgba(28,27,27,1)] max-w-xl">
+                <p className="font-body-lg text-base md:text-body-lg text-on-surface font-extrabold italic leading-relaxed">
+                  Kasirify provides high-performance POS infrastructure customized for the unique operational demands of your sector. No fluff. Just raw power.
+                </p>
+              </div>
               <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-4">
                 <button 
                   onClick={() => {

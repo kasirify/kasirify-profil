@@ -53,9 +53,11 @@ export default function AboutPage({ onNavigate, onGoToApp }) {
               <h1 className="font-display-lg text-3xl sm:text-5xl md:text-display-lg text-on-surface leading-tight md:leading-none uppercase italic font-black">
                 Digitalisasi Bisnis <span className="text-primary italic bg-on-surface px-2 inline-block skew-1">Tanpa</span> Batas.
               </h1>
-              <p className="font-body-lg text-base md:text-body-lg text-on-surface max-w-xl border-l-4 border-primary pl-4 md:pl-6 font-bold italic">
-                Kami percaya setiap pelaku usaha berhak mendapatkan akses ke infrastruktur keuangan yang stabil, modern, dan efisien. Inklusi teknologi adalah misi utama kami.
-              </p>
+              <div className="bg-white/95 backdrop-blur-sm p-4 sm:p-5 border-4 border-on-surface grunge-border-sm shadow-[4px_4px_0px_0px_rgba(28,27,27,1)] max-w-xl">
+                <p className="font-body-lg text-base md:text-body-lg text-on-surface font-extrabold italic leading-relaxed">
+                  Kami percaya setiap pelaku usaha berhak mendapatkan akses ke infrastruktur keuangan yang stabil, modern, dan efisien. Inklusi teknologi adalah misi utama kami.
+                </p>
+              </div>
               <div className="pt-4 flex flex-col sm:flex-row gap-4">
                 <button
                   onClick={onGoToApp}
